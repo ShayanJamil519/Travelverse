@@ -1,0 +1,89 @@
+.image-gallery-image {
+    /* max-height: 25rem !important;
+    width: 100% !important;
+    object-fit: cover; */
+    border-radius: 10px;
+}
+
+
+/* Landing Page CheckBoxes */
+
+.ant-collapse-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #def1f0;
+}
+
+.ant-collapse-content-box span {
+    font-size: 0.9rem;
+    margin-right: 9px;
+}
+
+.ant-radio-wrapper span {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Product Info Title */
+
+.ant-descriptions-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: cursive;
+    margin-bottom: 0;
+}
+
+.ant-descriptions-item-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+
+.ant-descriptions-item-content {
+    font-size: 0.9rem;
+    font-family: cursive;
+}
+
+.ant-descriptions-row:last-child {
+    background: #e2fcff;
+}
+
+.productInfoBtn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 5px;
+    font-family: cursive;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+.productInfoBtn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+
+/* historyPageStyle */
+
+.historyPageStyle tr th,
+.historyPageStyle tr td {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #3cb0fd;
+}
+
+@media (max-width:500px) {
+    .postPage {
+        padding: 5vmin 10vmin 20vmin 10vmin !important;
+    }
+}

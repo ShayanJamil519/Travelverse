@@ -1,0 +1,135 @@
+/* Hero */
+
+.main {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0 13rem;
+}
+
+.content h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-family: serif;
+    font-weight: 900;
+}
+
+.content p {
+    font-family: serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 6rem;
+    letter-spacing: 0.5px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+/* -------------------- */
+
+.ant-card-meta-detail>div:not(:last-child) {
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+    font-family: inherit;
+}
+
+.ant-card-meta-description {
+    color: #15d2fd;
+    font-size: 1rem;
+}
+
+.ant-card-body {
+    padding: 15px;
+    zoom: 1;
+}
+
+.ant-card-meta-detail>div:not(:last-child) {
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: unset;
+}
+
+.ant-card-meta-description {
+    color: rgb(0 164 201 / 45%);
+    padding-bottom: 10px;
+    font-family: fantasy;
+}
+
+.ant-carousel .slick-slider .slick-track,
+.ant-carousel .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    height: 153px;
+}
+
+.ant-carousel .slick-slide img {
+    display: block;
+}
+
+
+/* .ant-carousel .slick-slider .slick-track, .ant-carousel .slick-slider .slick-list:hover{
+    transform: perspective(500px) translateZ(15px);
+} */
+
+.ant-card-hoverable:hover {
+    border-color: rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 0 2px 8px rgb(0 0 0 / 9%);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 9%);
+    transform: translateY(-10px);
+}
+
+@media (max-width:400px) {
+    .content {
+        padding: 0 5vmin;
+    }
+    .content h1 {
+        font-size: 14vmin;
+        text-align: center;
+        line-height: 15vmin;
+    }
+    .content p {
+        /* padding: 0 4vmin; */
+        padding: 0;
+        font-size: 1rem;
+    }
+    .resp1 {
+        font-size: 7vmin;
+    }
+    .ant-collapse-content-box span {
+        margin-right: 0;
+    }
+    .resp2 div:first-child {
+        width: 100%;
+    }
+    .resp2 {
+        margin-bottom: 15vmin !important;
+    }
+    /* .resp1 {
+        width: 85% !important;
+    } */
+}
